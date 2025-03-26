@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .left {
+            margin: 5px;
+            padding: 5px;
+        }
+
+        nav {
+            background-color: rgb(14, 16, 82);
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 25px;
+            list-style: none;
+        }
+
+        .logo img {
+            width: 40px;
+            border: 2px solid white;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px black;
+
+        } 
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.1rem;
+            color: rgb(119, 111, 227);
+        }
+
+
+        .left {
+            font-size: 2rem;
+        }
+
+        body {
+            font-family: "Poppins", serif;
+            color: aliceblue;
+            background-color: rgb(7, 8, 56);
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+
+        .leftsection {
+            margin: 100px 0;
+            align-items: center;
+            font-size: 3rem;
+            /* background-color: rgb(255, 0, 157); */
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .rightsection img {
+            width: 120%;
+            margin: 50px 0;
+            border-radius: 50%;
+        }
+
+        .purple {
+            color: aqua;
+            /* font-size: 4rem; */
+        }
+
+        #element {
+            color: aqua;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+
+
+        }
+        .right{
+            
+        backdrop-filter: blur(30px);
+        -webkit-backdrop-filter: blur(3px);
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+
+
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background: white;
+            height: 2px;
+            width: 80vw;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 90px;
+            width: 1px;
+            margin: 0 100px;
+            background-color: white;
+
+
+        }
+
+        .image-top {
+            width: 25px;
+            position: relative;
+            top: -40px;
+            left: -15px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 53px;
+            left: 10px;
+            font-size: 14px;
+
+
+        }
+
+        .vertical-desc {
+            color: gray;
+            position: relative;
+            top: 65px;
+            left: 11px;
+            width: 171px;
+            font-size: 10px;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(54, 89, 119);
+            margin: 60px 80px;
+            height: 2px;
+
+        }
+
+
+        .mainfooter {
+            background-color: rgb(13, 16, 31);
+            /* height: 262px; */
+            position: relative;
+            top: 275px;
+        }
+
+        .footer {
+            justify-content: space-evenly;
+            display: flex;
+            padding: 25px 120px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 200px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+
+
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            color: aliceblue;
+            background-color: rgb(13, 11, 53);
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .leftsection .butten {
+            padding: 40px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="myimage.jpg" alt="image">
+            </div>
+            <div class="left">Adarsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">services</a></li>
+                    <li><a href="/">projects</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+             
+        </nav>
+    </header>
+    <main>
+        <header>
+            <section class="firstsection">
+                <div class="leftsection">
+
+                    <div>Hi,I Am </div> <span class="purple">Adarsh</span>
+                    <div>and I Am a Web Devloper</div>
+                    <span id="element"></span>
+                    <div class="butten">
+                        <button class="btn">Downlod resume</button>
+                        <button class="btn">Visit Github</button>
+
+                    </div>
+                </div>
+                <div class="rightsection">
+                    <img  src="myimage.jpg" alt="image">
+
+                </div>
+
+            </section>
+
+        </header>
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+        <!-- Load library from the CDN -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <!-- Setup and start animation! -->
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['  video editor', 'photo editor',],
+                typeSpeed: 100,
+            });
+        </script>
+        <hr>
+
+
+    </main>
+
+    <section class="secondsection">
+        <span class="text-gray">What I Have Done So Far</span>
+        <h1>Work experience</h1>
+        <div class="box">
+            <div class="vertical">
+                <img src="html.jpg" alt="image" class="image-top">
+                <div class="vertical-title">
+                    Webdevloper in Facebook (2010-2012)
+                </div>
+                <div class="vertical-desc">
+                    HTML web developer at Facebook, passionate about crafting clean, responsive, and user-friendly web
+                    experiences. I specialize in creating visually appealing and high-performance websites. Explore my
+                    work and get in touch to collaborate on exciting web projects!
+                </div>
+            </div>
+            <div class="vertical">
+                <img src="html.jpg " alt="image" class="image-top">
+                <div class="vertical-title">
+                    Webdevloper in Instagram (2012-2016)
+                </div>
+                <div class="vertical-desc">
+                    HTML web developer working with Facebook, Instagram, Twitter, and WhatsApp. I specialize in building
+                    clean, responsive, and user-friendly web experiences that enhance digital interactions. With a
+                    passion for front-end development
+                </div>
+            </div>
+            <div class="vertical">
+                <img src="html.jpg " alt="image" class="image-top">
+                <div class="vertical-title">
+                    Webdevloper in WhatsApp (2017-2018)
+                </div>
+                <div class="vertical-desc">
+                    HTML web developer working with Facebook, Instagram, Twitter, and WhatsApp. I specialize in building
+                    clean, responsive, and user-friendly web experiences that enhance digital interactions. With a
+                    passion for front-end development.
+                </div>
+            </div>
+            <div class="vertical">
+                <img src="html.jpg" alt="image" class="image-top">
+                <div class="vertical-title">
+                    Webdevloper in Google(2018-2022)
+                </div>
+                <div class="vertical-desc">
+                    HTML web developer working with Facebook, Instagram, Twitter, and WhatsApp. I specialize in building
+                    clean, responsive, and user-friendly web experiences that enhance digital interactions. With a
+                    passion for front-end development.
+                </div>
+            </div>
+            <div class="vertical">
+                <img src="html.jpg" alt="image" class="image-top">
+                <div class="vertical-title">
+                    Webdevloper in Github(2022-2023)
+                </div>
+                <div class="vertical-desc">
+                    HTML web developer working with Facebook, Instagram, Twitter, and WhatsApp. I specialize in building
+                    clean, responsive, and user-friendly web experiences that enhance digital interactions. With a
+                    passion for front-end development.
+                </div>
+            </div>
+            
+
+
+
+        </div>
+
+
+    </section>
+
+    <footer class="mainfooter">
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Adarsh's Web Devloper Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact Me</li>
+                    <li>Servises</li>
+                    <li>Thank You</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Claim Details</li>
+                    <li>About</li>
+                    <li>Board of Directors</li>
+                    <li>servises</li>
+                    <li>Our Values</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Disclaimer</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of use</li>
+                    <li>Sitemap</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; lalit'sportfolio.com | All Rights reserved
+        </div>
+    </footer>
+</body>
+
+</body>
+
+</html>
